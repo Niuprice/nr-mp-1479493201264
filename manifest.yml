@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: nr-mp
+  host: nr-mp
+  disk_quota: 1024M
+  services:
+  - nr-mp-cloudantNoSQLDB
